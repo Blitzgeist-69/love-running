@@ -132,7 +132,7 @@ main {
 #reasons h2 {
   text-align: center;
   margin-bottom: 20px;
-  size: 280%;
+  resize: 280%;
 }
 
 #benefits-physical > div,
