@@ -55,7 +55,83 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+      <section id="signup">
+        <form
+          id="signup-form"
+          action="https://formdump.codeinstitute.net"
+          method="POST"
+        >
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!
+          </h2>
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            class="text-input"
+            type="text"
+            name="first-name"
+            required
+          />
+          <br />
+          <label for="last-name">Last Name</label>
+          <input
+            id="last-name"
+            class="text-input"
+            type="text"
+            name="last-name"
+            required
+          />
+          <br />
+          <label for="email-address">Email Address</label>
+          <input
+            id="email-address"
+            class="text-input"
+            type="email"
+            name="email-address"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                id="road"
+                class="radio-buttons"
+                name="running-preference"
+                value="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input
+                type="radio"
+                id="trail"
+                class="radio-buttons"
+                name="running-preference"
+                value="trail"
+                required
+              />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                id="both"
+                class="radio-buttons"
+                name="running-preference"
+                value="both"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Let's Run!</button>
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
